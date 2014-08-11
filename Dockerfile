@@ -1,9 +1,11 @@
 FROM ubuntu:14.04
 MAINTAINER Matt Carrier
 
+RUN export DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update \
-    && apt-get upgrade -y \
-    && apt-get install -y \
+    && apt-get upgrade -q -y \
+    && apt-get install -q -y \
     cmake \
     make \
     g++ \
