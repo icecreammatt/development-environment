@@ -11,11 +11,13 @@ RUN apt-get update \
     git \
     python-dev \
     htop \
+    tmux \
     zsh \
     tree \
     curl \
     nodejs \
     npm \
+    python-setuptools \
     && apt-get autoremove \
     && apt-get clean
 
