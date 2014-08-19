@@ -25,7 +25,7 @@ RUN apt-get update \
 
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 
-RUN npm install -g gulp bower tldr jshint forever
+RUN npm install -g gulp bower tldr jshint forever grunt
 
 RUN curl -s https://storage.googleapis.com/golang/go1.2.2.linux-amd64.tar.gz | tar -C /usr/local -xz
 
