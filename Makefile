@@ -1,5 +1,5 @@
 build:
-	docker build -t icecreammatt/dev .
+	docker build -t icecreammatt/devenv .
 
 shell:
-	docker run -i -t icecreammatt/dev /bin/zsh
+	docker run -i -t icecreammatt/devenv /bin/zsh
